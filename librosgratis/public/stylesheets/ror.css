@@ -1,0 +1,82 @@
+/* Todos los elementos HTML usarán la fuente "Open Sans", sans-serif */
+
+* {
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+/* El elemento body sin margen y sin relleno */
+
+body {
+    margin: 0;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+body {
+    display: grid;
+    grid-template-areas:    "area1 area3 area4"
+                            "area2 area3 area4";                            
+}
+
+main h4 {
+    grid-area: area1;
+}
+
+main h1 {
+    grid-area: area1;
+}
+
+main img {
+    width: 200px;
+    padding: 1em;
+    grid-area: area2;
+    border: 5px solid;
+    margin: 2em;
+    border-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+main div {
+    grid-area: area3;
+}
+/*
+main h2 {
+    grid-area: area3;
+}
+main span {
+    grid-area: area3;
+}
+main p {
+    grid-area: area3;
+}
+main h4 {
+    grid-area: area3;
+}
+*/
+aside {
+    grid-area: area4;
+}
+
+aside ul {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+aside ul img {
+    height: 7em;
+    border: 10px solid;
+    margin: 2em;
+    border-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.vl {
+    position: absolute;
+    border-left: 6px solid #a93816;
+    height: 125%;
+  }
