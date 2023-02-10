@@ -1,0 +1,52 @@
+.banner-image{
+    background-image: url("../assets/banner2.jpg");
+    background-repeat: round;
+    background-size: contain;
+}
+
+.banner-title {
+    font-weight: bolder !important;
+    text-shadow: 2px 2px 8px #000000;
+}
+
+body {
+    background-color: #2e3030;
+    color: white;
+}
+
+.navbar {
+    background-color:  #A4243B !important;
+}
+
+.p {
+    text-shadow: 1px 1px 1px #000;
+}
+
+.card {
+    background-color: #969A97 ;    
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+
+table {
+    color: white !important;
+}
+
+.btn {
+    color: white;
+    border-color: white;
+}
+
+p {
+  text-align: justify !important;
+}
